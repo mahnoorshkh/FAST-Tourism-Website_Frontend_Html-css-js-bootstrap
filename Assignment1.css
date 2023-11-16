@@ -1,0 +1,205 @@
+.carousel-item img{
+    height: 400px;
+}
+.carousel-caption{
+  font-weight: bold;
+  color:white;
+}
+.navbar-brand{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.home-content{
+    width: 100%;
+    height: 84vh;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -55;
+}
+.carousel-caption{
+    top: 50px;
+    padding-top: 0PX;
+    transition: .2s ease-in;
+}
+.selection{
+    width: 90%;
+    height: 20vh;
+    background-color: rgb(255, 250, 250);
+    position: absolute;
+    bottom: -80px;
+    left: 52px;
+    padding: 0px 26px;
+    box-shadow: 4px 4px 16px rgb(56, 2, 57) ;
+}
+.sel_container{
+    display: flex;
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+}
+.set{
+    padding: 14px 20px;
+    width: 180px;
+    margin:0px 10px;
+    outline: none;
+}
+.select-btn{
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: rgb(2, 102, 209);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin:0px 10px;
+    border: 100px;
+    border-color: rgb(56, 2, 57);
+}
+.btn:hover{
+background-color: rgb(56, 2, 57);;
+}
+.heading-sm{
+    font-size: 44px;
+    color: rgb(56, 2, 57);
+    letter-spacing: 3px;
+    font-size: 21px;
+}
+.heading-lg{
+    font-size: 44px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+.packages{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 8px 0px;
+    margin:10px 0px;
+}
+.card{
+    float: center;
+    left:160px;
+    top:40px;
+}
+.material-symbols-outlined{
+    color: rgb(56, 2, 57);
+}
+div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    float: left;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #cccccc;
+  }
+  
+  button {
+    height: 50px;
+    background:rgb(56, 2, 57)
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid #220b78;
+  }
+  label{
+    color:#4613fd ;
+  }
+  rl('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body{
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container h1{
+  color: #100f0f;
+  text-align: center;
+  text-shadow: rgb(56, 2, 57);
+  text-decoration: dotted;
+}
+
+details{
+    background-image:  linear-gradient(rgb(237, 235, 237),black);
+  background-color: rgb(56, 2, 57);
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+summary {
+  padding: .5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+  transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] div{
+  padding: .5em 1em;
+}
+body{
+    background-color: white;
+}
+.alert{
+    width:500px;
+    margin:20px;
+}
